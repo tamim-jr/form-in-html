@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <style>
+        .container{
+            background: url(/bg.jpg);
+            padding: 10px 200px 10px 200px;
+        }
+        h2{
+            text-align: center;
+        }
+        .form{
+            border: 2px solid black;
+            border-radius: 21px;
+            background-color: rgb(227, 230, 230);
+            display: flex;
+            content: "";
+            text-align: center;
+            justify-content: center;
+            padding: 25px;
+            z-index: -1;
+            opacity: .75;
+        }
+        .form-text{
+            font-size: 20px;
+        }
+        .item{
+            padding: 10px 25px 10px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Form in html</h2>
+    <div class="form">
+        <form action="#">
+            <label class="form-text" for="first-name">First Name</label><br>
+            <input class="item" type="text" name="first-name" id="first-name" placeholder="First Name"><br><br>
+            <label class="form-text" for="last-name">Last Name</label><br>
+            <input class="item" type="text" name="last-name" id="last-name" placeholder="Last Name"><br><br>
+            <label class="form-text" for="email">Email</label><br>
+            <input class="item" type="text" name="email" id="email" placeholder="email"><br><br>
+            <label class="form-text" for="phone">Phone</label><br>
+            <input class="item" type="text" name="phone" id="phone" placeholder="pone"><br><br>
+            <label class="form-text" for="password">Password</label><br>
+            <input class="item" type="text" name="password" id="password" placeholder="password"><br><br>
+            <label class="form-text" for="birthday">Select Birth Date</label><br>
+            <input class="item" type="date" name="Date" id=""><br><br> 
+            <label for="elegability">Select your gender: </label><br>
+            Male<input type="radio" name="my-gender" id="my-gender">Female<input type="radio" name="my-gender" id="my-gender">
+            Other<input type="radio" name="my-gender" id="my-gender"><br>
+            <br>
+            <label for="elegability">Are you eligible?</label>
+            <input type="checkbox" name="" id="my-elegabelity"><br>
+            <br>
+            <input type="reset" value="Reset"> <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
